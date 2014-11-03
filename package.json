@@ -1,0 +1,39 @@
+{
+  "name": "gl-buffer-snoop",
+  "version": "1.0.0",
+  "description": "Intercepts uploads to WebGL buffers in order to keep track of their expected value on the GPU.",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "browserify test.js | smokestack | tap-spec"
+  },
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "http://hughsk.io/"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^6.2.0",
+    "smokestack": "^2.0.0",
+    "tap-spec": "^1.0.1",
+    "tape": "^3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stackgl/gl-buffer-snoop.git"
+  },
+  "keywords": [
+    "gl",
+    "webgl",
+    "stackgl",
+    "snoop",
+    "test",
+    "intercept",
+    "guesstimate"
+  ],
+  "homepage": "https://github.com/stackgl/gl-buffer-snoop",
+  "bugs": {
+    "url": "https://github.com/stackgl/gl-buffer-snoop/issues"
+  }
+}
